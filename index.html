@@ -26,8 +26,6 @@
 }
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:15px;line-height:1.7;overflow-x:hidden}
-
-/* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:18px 56px;background:rgba(249,248,245,0.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
 .nav-logo{font-family:var(--font-display);font-weight:700;font-size:20px;letter-spacing:-0.5px;color:var(--text)}
 .nav-logo span{color:var(--accent2)}
@@ -36,8 +34,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .nav-links a:hover{color:var(--text)}
 .nav-cta{background:var(--accent);color:#fff;font-family:var(--font-mono);font-size:11px;font-weight:500;padding:9px 20px;border-radius:3px;text-decoration:none;letter-spacing:.03em;transition:background .2s}
 .nav-cta:hover{background:#2a2a4a}
-
-/* HERO */
 .hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;gap:0;padding-top:80px}
 .hero-left{padding:80px 56px 80px;display:flex;flex-direction:column;justify-content:center;border-right:1px solid var(--border)}
 .hero-right{padding:80px 56px 80px;display:flex;flex-direction:column;justify-content:center;background:var(--surface)}
@@ -59,8 +55,6 @@ h1.hero-name em{font-style:italic;color:var(--muted);font-weight:300}
 .hero-contact-item svg{width:13px;height:13px;stroke:var(--accent2);fill:none;stroke-width:1.8}
 .hero-contact-item a{color:var(--muted);text-decoration:none}
 .hero-contact-item a:hover{color:var(--accent2)}
-
-/* STAT CARDS - right side */
 .stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px}
 .stat-card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:24px}
 .stat-card.featured{background:var(--accent);border-color:var(--accent)}
@@ -72,16 +66,12 @@ h1.hero-name em{font-style:italic;color:var(--muted);font-weight:300}
 .hero-avail{display:inline-flex;align-items:center;gap:10px;background:rgba(45,106,79,.08);border:1px solid rgba(45,106,79,.2);border-radius:4px;padding:10px 16px;font-size:12px;font-family:var(--font-mono);color:var(--accent3);letter-spacing:.04em}
 .avail-dot{width:7px;height:7px;border-radius:50%;background:var(--accent3);animation:pulse 2s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.85)}}
-
-/* SECTION COMMON */
 section{padding:96px 56px}
 .section-label{font-family:var(--font-mono);font-size:10px;color:var(--accent2);letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:10px}
 .section-label::after{content:'';flex:1;height:1px;background:var(--border)}
 .section-title{font-family:var(--font-display);font-size:clamp(30px,3.5vw,46px);font-weight:700;line-height:1.05;letter-spacing:-1.5px;margin-bottom:56px;color:var(--text)}
 .section-title em{font-style:italic;font-weight:300;color:var(--muted)}
 .divider{height:1px;background:var(--border);margin:0}
-
-/* EXPERIENCE */
 .exp-timeline{position:relative;padding-left:32px}
 .exp-timeline::before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:1px;background:var(--border)}
 .exp-item{position:relative;margin-bottom:48px}
@@ -100,8 +90,6 @@ section{padding:96px 56px}
 .exp-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
 .tag{font-family:var(--font-mono);font-size:10px;color:var(--muted);background:var(--tag-bg);border:1px solid var(--border);padding:4px 10px;border-radius:2px;letter-spacing:.02em}
 .tag.highlight{color:var(--accent3);background:rgba(45,106,79,.07);border-color:rgba(45,106,79,.2)}
-
-/* IMPACT */
 .impact-strip{background:var(--accent);padding:64px 56px}
 .impact-strip .section-label{color:rgba(255,255,255,.5)}
 .impact-strip .section-label::after{background:rgba(255,255,255,.15)}
@@ -111,8 +99,6 @@ section{padding:96px 56px}
 .impact-num{font-family:var(--font-display);font-size:40px;font-weight:700;color:#fff;letter-spacing:-1.5px;line-height:1}
 .impact-num span{color:var(--accent2);font-size:26px}
 .impact-desc{font-size:12px;color:rgba(255,255,255,.55);font-family:var(--font-mono);margin-top:8px;letter-spacing:.03em;line-height:1.5}
-
-/* PROJECTS */
 .projects-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .project-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:28px;transition:box-shadow .2s,border-color .2s;position:relative}
 .project-card:hover{border-color:var(--border2);box-shadow:0 4px 24px rgba(0,0,0,.06)}
@@ -124,8 +110,6 @@ section{padding:96px 56px}
 .project-link{font-family:var(--font-mono);font-size:11px;color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:6px;transition:color .2s}
 .project-link:hover{color:var(--accent2)}
 .project-link svg{width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2}
-
-/* SKILLS */
 .skills-layout{display:grid;grid-template-columns:1fr 1fr;gap:32px}
 .skill-block{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:28px}
 .skill-block-head{font-family:var(--font-display);font-size:16px;font-weight:700;color:var(--text);margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;letter-spacing:-.3px}
@@ -142,8 +126,6 @@ section{padding:96px 56px}
 .edu-degree{font-size:13px;font-weight:600;color:var(--text)}
 .edu-school{font-size:12px;color:var(--muted);margin-top:2px}
 .edu-year{font-family:var(--font-mono);font-size:11px;color:var(--faint);background:var(--tag-bg);padding:4px 10px;border-radius:3px;border:1px solid var(--border);white-space:nowrap}
-
-/* CONTACT */
 .contact-split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .contact-left h2{font-family:var(--font-display);font-size:clamp(28px,3.5vw,44px);font-weight:700;letter-spacing:-1.5px;line-height:1.05;margin-bottom:20px}
 .contact-left h2 em{font-style:italic;font-weight:300;color:var(--muted)}
@@ -156,22 +138,48 @@ section{padding:96px 56px}
 .contact-label{font-size:11px;font-family:var(--font-mono);color:var(--faint);letter-spacing:.04em;text-transform:uppercase}
 .contact-val{font-size:13px;font-weight:500;color:var(--text);margin-top:1px}
 .contact-arrow{margin-left:auto;font-size:14px;color:var(--faint)}
-
-/* RESUME CTA BAND */
 .resume-band{background:var(--surface2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:40px 56px;display:flex;align-items:center;justify-content:space-between;gap:32px}
 .resume-band-text{font-family:var(--font-display);font-size:20px;font-weight:600;color:var(--text);letter-spacing:-.5px}
 .resume-band-sub{font-size:13px;color:var(--muted);margin-top:4px}
 .btn-download{display:inline-flex;align-items:center;gap:10px;background:var(--accent2);color:#fff;font-family:var(--font-mono);font-size:12px;font-weight:500;padding:14px 28px;border-radius:3px;text-decoration:none;letter-spacing:.04em;transition:background .2s}
 .btn-download:hover{background:#c94d1a}
 .btn-download svg{width:14px;height:14px;stroke:#fff;fill:none;stroke-width:2}
-
-/* FOOTER */
 footer{padding:28px 56px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--border)}
 footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
-
-/* FADE */
 .fade-up{opacity:0;transform:translateY(20px);transition:opacity .55s ease,transform .55s ease}
 .fade-up.visible{opacity:1;transform:none}
+
+/* CHAT WIDGET */
+#chat-bubble{position:fixed;bottom:28px;right:28px;z-index:9999;width:52px;height:52px;background:var(--accent2);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 20px rgba(232,93,38,.35);transition:transform .2s,box-shadow .2s}
+#chat-bubble:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(232,93,38,.45)}
+#chat-bubble svg{width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2}
+#chat-window{position:fixed;bottom:92px;right:28px;z-index:9998;width:340px;background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.12);display:none;flex-direction:column;overflow:hidden;font-family:var(--font-body)}
+#chat-window.open{display:flex}
+.cw-header{background:var(--accent);padding:16px 18px;display:flex;align-items:center;gap:12px}
+.cw-avatar{width:34px;height:34px;background:var(--accent2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;flex-shrink:0;font-family:var(--font-display)}
+.cw-name{font-size:13px;font-weight:600;color:#fff;font-family:var(--font-body)}
+.cw-status{font-size:10px;color:rgba(255,255,255,.5);margin-top:1px;display:flex;align-items:center;gap:5px;font-family:var(--font-mono)}
+.cw-dot{width:6px;height:6px;border-radius:50%;background:#4ade80}
+.cw-close{margin-left:auto;color:rgba(255,255,255,.5);font-size:20px;cursor:pointer;line-height:1;background:none;border:none;padding:0}
+.cw-close:hover{color:#fff}
+.cw-messages{padding:16px;display:flex;flex-direction:column;gap:12px;background:#f9f8f5;min-height:200px;max-height:280px;overflow-y:auto}
+.cw-msg{max-width:88%;font-size:13px;line-height:1.55;padding:10px 13px;border-radius:10px}
+.cw-msg.bot{background:#fff;border:1px solid var(--border);color:var(--text);border-radius:10px 10px 10px 2px;align-self:flex-start}
+.cw-msg.user{background:var(--accent);color:#fff;border-radius:10px 10px 2px 10px;align-self:flex-end}
+.cw-suggestions{padding:10px 14px;display:flex;flex-direction:column;gap:7px;border-top:1px solid var(--border);background:#fff}
+.cw-suggestion{font-size:11px;color:var(--accent2);background:rgba(232,93,38,.06);border:1px solid rgba(232,93,38,.18);padding:7px 13px;border-radius:6px;cursor:pointer;text-align:left;font-family:var(--font-mono);transition:background .15s}
+.cw-suggestion:hover{background:rgba(232,93,38,.12)}
+.cw-input-row{display:flex;align-items:center;gap:8px;padding:12px 14px;border-top:1px solid var(--border);background:#fff}
+.cw-input{flex:1;font-size:13px;border:1px solid var(--border);border-radius:20px;padding:8px 14px;color:var(--text);outline:none;background:var(--bg);font-family:var(--font-body);transition:border-color .2s}
+.cw-input:focus{border-color:var(--accent2)}
+.cw-send{width:34px;height:34px;background:var(--accent2);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;cursor:pointer;border:none;transition:background .15s}
+.cw-send:hover{background:#c94d1a}
+.cw-send svg{width:14px;height:14px;stroke:#fff;fill:none;stroke-width:2.5}
+.cw-typing{display:flex;gap:4px;align-items:center;padding:10px 13px;background:#fff;border:1px solid var(--border);border-radius:10px 10px 10px 2px;align-self:flex-start;display:none}
+.cw-typing span{width:6px;height:6px;border-radius:50%;background:var(--faint);animation:typing .9s ease-in-out infinite}
+.cw-typing span:nth-child(2){animation-delay:.15s}
+.cw-typing span:nth-child(3){animation-delay:.3s}
+@keyframes typing{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)}}
 
 @media(max-width:900px){
   nav{padding:16px 24px}
@@ -187,6 +195,8 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
   .contact-split{grid-template-columns:1fr}
   .resume-band{flex-direction:column;align-items:flex-start;padding:32px 24px}
   footer{flex-direction:column;gap:10px;text-align:center;padding:24px}
+  #chat-window{width:calc(100vw - 32px);right:16px;bottom:84px}
+  #chat-bubble{right:16px;bottom:16px}
 }
 </style>
 </head>
@@ -204,7 +214,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
   <a href="Ashu_Mishra_Resume.pdf" download class="nav-cta">↓ Resume</a>
 </nav>
 
-<!-- HERO -->
 <div class="hero">
   <div class="hero-left">
     <div class="hero-eyebrow">Senior Product Manager</div>
@@ -271,12 +280,10 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
 
 <div class="divider"></div>
 
-<!-- EXPERIENCE -->
 <section id="experience" class="fade-up">
   <div class="section-label">Work experience</div>
   <h2 class="section-title">Where I've driven<br><em>real outcomes</em></h2>
   <div class="exp-timeline">
-
     <div class="exp-item current">
       <div class="exp-dot"></div>
       <div class="exp-meta">
@@ -295,7 +302,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
         <span class="tag highlight">Vector DBs</span><span class="tag highlight">NLP / NER</span><span class="tag highlight">Agentic AI</span><span class="tag">ML Pipelines</span><span class="tag">Real-time Data</span><span class="tag">Schema Design</span>
       </div>
     </div>
-
     <div class="exp-item">
       <div class="exp-dot"></div>
       <div class="exp-meta">
@@ -316,7 +322,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
         <span class="tag highlight">Payment Orchestration</span><span class="tag">Fintech</span><span class="tag">Semantic Search</span><span class="tag">ML</span><span class="tag">Dubai + India</span><span class="tag">B2B</span>
       </div>
     </div>
-
     <div class="exp-item">
       <div class="exp-dot"></div>
       <div class="exp-meta">
@@ -337,7 +342,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
         <span class="tag highlight">P&L Management</span><span class="tag">Supply Chain</span><span class="tag">Gamification</span><span class="tag">Automation</span><span class="tag">Logistics</span><span class="tag">Sales Apps</span>
       </div>
     </div>
-
     <div class="exp-item">
       <div class="exp-dot"></div>
       <div class="exp-meta">
@@ -352,13 +356,11 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
       </ul>
       <div class="exp-tags"><span class="tag">Procurement</span><span class="tag">Supply Chain</span><span class="tag">Cross-functional</span></div>
     </div>
-
   </div>
 </section>
 
 <div class="divider"></div>
 
-<!-- IMPACT STRIP -->
 <div class="impact-strip" id="impact">
   <div class="section-label">Key achievements</div>
   <div class="impact-title">Numbers that speak louder than titles</div>
@@ -384,12 +386,10 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
 
 <div class="divider"></div>
 
-<!-- PROJECTS -->
 <section id="projects" class="fade-up">
   <div class="section-label">GitHub projects</div>
   <h2 class="section-title">Built by hand,<br><em>not just spec'd</em></h2>
   <div class="projects-grid">
-
     <div class="project-card">
       <div class="project-num">01 / Teaching</div>
       <div class="project-name">LangChain & LangGraph Teaching System</div>
@@ -397,7 +397,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
       <div class="project-stack"><span class="stack-tag">LangChain</span><span class="stack-tag">LangGraph</span><span class="stack-tag">Python</span><span class="stack-tag">Colab</span></div>
       <a href="https://github.com/ashumishra2104" target="_blank" class="project-link"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> github.com/ashumishra2104</a>
     </div>
-
     <div class="project-card">
       <div class="project-num">02 / Automation</div>
       <div class="project-name">Babu Milk Tracker — n8n Bot</div>
@@ -405,7 +404,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
       <div class="project-stack"><span class="stack-tag">n8n</span><span class="stack-tag">Telegram</span><span class="stack-tag">Google Sheets</span><span class="stack-tag">MLX-LM</span></div>
       <a href="https://github.com/ashumishra2104" target="_blank" class="project-link"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> github.com/ashumishra2104</a>
     </div>
-
     <div class="project-card">
       <div class="project-num">03 / Agentic AI</div>
       <div class="project-name">MCP Server Suite</div>
@@ -413,7 +411,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
       <div class="project-stack"><span class="stack-tag">MCP</span><span class="stack-tag">Claude Desktop</span><span class="stack-tag">TypeScript</span><span class="stack-tag">APIs</span></div>
       <a href="https://github.com/ashumishra2104" target="_blank" class="project-link"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> github.com/ashumishra2104</a>
     </div>
-
     <div class="project-card">
       <div class="project-num">04 / Education</div>
       <div class="project-name">Blog Writer AI Agent (V1–V4)</div>
@@ -421,7 +418,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
       <div class="project-stack"><span class="stack-tag">Agentic AI</span><span class="stack-tag">LLM</span><span class="stack-tag">Python</span><span class="stack-tag">Mermaid</span></div>
       <a href="https://github.com/ashumishra2104" target="_blank" class="project-link"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> github.com/ashumishra2104</a>
     </div>
-
     <div class="project-card">
       <div class="project-num">05 / Automation</div>
       <div class="project-name">DDA Monitor Bot</div>
@@ -429,7 +425,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
       <div class="project-stack"><span class="stack-tag">GitHub Actions</span><span class="stack-tag">Python</span><span class="stack-tag">Telegram</span></div>
       <a href="https://github.com/ashumishra2104" target="_blank" class="project-link"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> github.com/ashumishra2104</a>
     </div>
-
     <div class="project-card">
       <div class="project-num">06 / Teaching</div>
       <div class="project-name">A2A Job Recommender App</div>
@@ -437,13 +432,11 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
       <div class="project-stack"><span class="stack-tag">A2A / ACP</span><span class="stack-tag">Streamlit</span><span class="stack-tag">LLM</span></div>
       <a href="https://github.com/ashumishra2104" target="_blank" class="project-link"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg> github.com/ashumishra2104</a>
     </div>
-
   </div>
 </section>
 
 <div class="divider"></div>
 
-<!-- RESUME DOWNLOAD BAND -->
 <div class="resume-band">
   <div>
     <div class="resume-band-text">Want the full picture?</div>
@@ -457,12 +450,10 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
 
 <div class="divider"></div>
 
-<!-- SKILLS -->
 <section id="skills" class="fade-up">
   <div class="section-label">Skills & tools</div>
   <h2 class="section-title">What I bring<br><em>to day one</em></h2>
   <div class="skills-layout">
-
     <div class="skill-block">
       <div class="skill-block-head"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Technical Skills</div>
       <div class="skill-bars">
@@ -474,30 +465,25 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
         <div class="skill-row"><span class="skill-name">Agentic AI / LLMs</span><div class="skill-bar-bg"><div class="skill-bar-fill" style="width:82%"></div></div></div>
       </div>
     </div>
-
     <div class="skill-block">
       <div class="skill-block-head"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>PM Craft</div>
       <div class="skill-chips-wrap">
         <span class="skill-chip">Roadmapping</span><span class="skill-chip">PRD Writing</span><span class="skill-chip">Agile / Scrum</span><span class="skill-chip">A/B Testing</span><span class="skill-chip">OKRs / KPIs</span><span class="skill-chip">Go-to-Market</span><span class="skill-chip">User Research</span><span class="skill-chip">Data Analytics</span><span class="skill-chip">Revenue Optimisation</span><span class="skill-chip">Cross-functional Leadership</span>
       </div>
     </div>
-
     <div class="skill-block">
       <div class="skill-block-head"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Domain Expertise</div>
       <div class="skill-chips-wrap">
         <span class="skill-chip">Fintech / Payments</span><span class="skill-chip">RegTech / AML</span><span class="skill-chip">FATF / FCC</span><span class="skill-chip">eCommerce</span><span class="skill-chip">Supply Chain</span><span class="skill-chip">HealthTech</span><span class="skill-chip">Logistics</span><span class="skill-chip">Dubai & India Markets</span>
       </div>
     </div>
-
     <div class="skill-block">
       <div class="skill-block-head"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>Tools</div>
       <div class="skill-chips-wrap">
         <span class="skill-chip">Jira</span><span class="skill-chip">Figma</span><span class="skill-chip">Tableau</span><span class="skill-chip">Power BI</span><span class="skill-chip">MS Excel</span><span class="skill-chip">Streamlit</span><span class="skill-chip">LangChain</span><span class="skill-chip">Hugging Face</span><span class="skill-chip">n8n</span><span class="skill-chip">Git / GitHub</span>
       </div>
     </div>
-
   </div>
-
   <div style="margin-top:32px">
     <div class="skill-block" style="max-width:600px">
       <div class="skill-block-head"><svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>Education</div>
@@ -515,7 +501,6 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
 
 <div class="divider"></div>
 
-<!-- CONTACT -->
 <section id="contact" class="fade-up">
   <div class="contact-split">
     <div class="contact-left">
@@ -553,11 +538,108 @@ footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
   <p>Senior Product Manager · AI/ML · Fintech · RegTech</p>
 </footer>
 
+<!-- CHAT BUBBLE -->
+<div id="chat-bubble" onclick="toggleChat()" title="Ask me anything about Ashu">
+  <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</div>
+
+<!-- CHAT WINDOW -->
+<div id="chat-window">
+  <div class="cw-header">
+    <div class="cw-avatar">AM</div>
+    <div>
+      <div class="cw-name">Ashu's Assistant</div>
+      <div class="cw-status"><span class="cw-dot"></span>Ask me anything about Ashu</div>
+    </div>
+    <button class="cw-close" onclick="toggleChat()">×</button>
+  </div>
+  <div class="cw-messages" id="cw-messages">
+    <div class="cw-msg bot">Hi! I'm Ashu's portfolio assistant. I can answer questions about his experience, projects, and how to get in touch.</div>
+  </div>
+  <div class="cw-suggestions" id="cw-suggestions">
+    <button class="cw-suggestion" onclick="sendSuggestion(this)">How can I reach out to Ashu?</button>
+    <button class="cw-suggestion" onclick="sendSuggestion(this)">What is Ashu's professional experience?</button>
+    <button class="cw-suggestion" onclick="sendSuggestion(this)">What has Ashu built? Show me his projects</button>
+  </div>
+  <div class="cw-input-row">
+    <input class="cw-input" id="cw-input" placeholder="Ask about Ashu..." onkeydown="if(event.key==='Enter')sendMessage()">
+    <button class="cw-send" onclick="sendMessage()">
+      <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+    </button>
+  </div>
+</div>
+
 <script>
-const obs = new IntersectionObserver(entries => {
-  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible') });
-},{threshold:0.08});
-document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});},{threshold:0.08});
+document.querySelectorAll('.fade-up').forEach(el=>obs.observe(el));
+
+const WEBHOOK='https://ashumishra123.app.n8n.cloud/webhook/53ef29d1-4986-4e34-9463-da2b03cb6fbf/chat';
+let sessionId='session_'+Math.random().toString(36).substr(2,9);
+let isOpen=false;
+
+function toggleChat(){
+  isOpen=!isOpen;
+  const win=document.getElementById('chat-window');
+  const bubble=document.getElementById('chat-bubble');
+  win.classList.toggle('open',isOpen);
+  bubble.innerHTML=isOpen
+    ?'<svg viewBox="0 0 24 24" style="width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>'
+    :'<svg viewBox="0 0 24 24" style="width:24px;height:24px;stroke:#fff;fill:none;stroke-width:2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>';
+}
+
+function addMsg(text,role){
+  const msgs=document.getElementById('cw-messages');
+  const div=document.createElement('div');
+  div.className='cw-msg '+role;
+  div.textContent=text;
+  msgs.appendChild(div);
+  msgs.scrollTop=msgs.scrollHeight;
+}
+
+function showTyping(){
+  const msgs=document.getElementById('cw-messages');
+  const div=document.createElement('div');
+  div.className='cw-typing';
+  div.id='cw-typing';
+  div.style.display='flex';
+  div.innerHTML='<span></span><span></span><span></span>';
+  msgs.appendChild(div);
+  msgs.scrollTop=msgs.scrollHeight;
+}
+
+function hideTyping(){
+  const t=document.getElementById('cw-typing');
+  if(t)t.remove();
+}
+
+async function sendMessage(){
+  const input=document.getElementById('cw-input');
+  const text=input.value.trim();
+  if(!text)return;
+  input.value='';
+  document.getElementById('cw-suggestions').style.display='none';
+  addMsg(text,'user');
+  showTyping();
+  try{
+    const res=await fetch(WEBHOOK,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({chatInput:text,sessionId:sessionId,action:'sendMessage'})
+    });
+    const data=await res.json();
+    hideTyping();
+    const reply=data.output||data.text||data.message||data.response||'Thanks for your message! You can also reach Ashu at ashumishra1@outlook.com';
+    addMsg(reply,'bot');
+  }catch(e){
+    hideTyping();
+    addMsg('Something went wrong. Please reach Ashu directly at ashumishra1@outlook.com','bot');
+  }
+}
+
+function sendSuggestion(btn){
+  document.getElementById('cw-input').value=btn.textContent;
+  sendMessage();
+}
 </script>
 </body>
 </html>
