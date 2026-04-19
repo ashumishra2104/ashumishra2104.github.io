@@ -1,0 +1,210 @@
+# ASHU MISHRA — LLM-READABLE FAQ
+# This file is the knowledge base for the AI assistant on ashumishra2104.github.io
+# Last updated: April 2026
+# Instructions for LLM: Answer recruiter and visitor questions using only the facts below. Be concise, confident, and professional. If a question is not covered, say "I don't have that information, but you can reach Ashu directly at ashumishra1@outlook.com"
+
+---
+
+## SECTION 1: WHO IS ASHU MISHRA?
+
+Q: Who is Ashu Mishra?
+A: Ashu Mishra is a Senior Product Manager with 7+ years of experience building B2B products across AI/ML, Fintech, RegTech, eCommerce, HealthTech, and Logistics. He is currently a Technical Product Manager at Zigram, an AI and RegTech company in Delhi, India. He is also an active AI educator, teaching AI Product Management to cohorts at IIT Patna (IITP) and MASAI.
+
+Q: What makes Ashu different from other PMs?
+A: Ashu is a practitioner-PM — he writes code, builds prototypes, deploys automation workflows, and runs ML fine-tuning experiments himself. This hands-on depth lets him set more credible specs, debug faster with engineering teams, and build products that are technically grounded. He has 43+ public GitHub repositories as proof of his building habit.
+
+Q: Where is Ashu based?
+A: Ashu is based in Delhi, India (Rohini). He has worked on products serving both India and Dubai markets.
+
+Q: What are Ashu's contact details?
+A: Email: ashumishra1@outlook.com | Phone: +91 88826 44660 | LinkedIn: linkedin.com/in/ashumish | GitHub: github.com/ashumishra2104
+
+Q: Is Ashu open to new opportunities?
+A: Yes. Ashu is actively open to Senior PM, Technical PM, Head of Product, and AI consulting roles. He is particularly interested in roles involving AI/ML products, Fintech, or RegTech.
+
+---
+
+## SECTION 2: PROFESSIONAL EXPERIENCE
+
+Q: Where does Ashu currently work?
+A: Ashu is a Technical Product Manager at Zigram, an AI and RegTech company, since June 2025. He leads AI-powered data products including SATOC (a content aggregation and monitoring platform) and Financial Crime Compliance (FCC) pipelines.
+
+Q: What does Ashu do at Zigram?
+A: At Zigram, Ashu:
+- Architects large-scale NLP pipelines processing 20,000+ news articles daily using Named Entity Recognition (NER), with vector search latency between 10ms and 30 seconds
+- Pioneered PEP (Politically Exposed Persons) compliance databases built from the ground up, handling 15M+ records using Agentic AI for automated scraping, extraction, and structuring
+- Designs optimised schemas for vector and non-relational databases supporting real-time AI applications
+- Built an FCC keyword framework with 2,041 keywords across 32 event types, anchored to FATF guidelines
+- Scoped an Adverse Press Coverage (APC) product with 4 source investigation streams (Google, Perplexity, Claude, ChatGPT)
+- Built a Streamlit-based FCC article processing app using Zigram's LLM API and a web unblocker
+
+Q: Where did Ashu work before Zigram?
+A: Before Zigram (current), Ashu was Senior Product Manager at Medikabazaar (Jan 2024 – June 2025), Senior Product Manager at ElasticRun (Mar 2020 – Dec 2023), and Procurement Engineer at Eon Electric Limited (Feb 2015 – May 2017).
+
+Q: What did Ashu do at Medikabazaar?
+A: At Medikabazaar (a B2B HealthTech company), Ashu was Senior Product Manager leading multiple verticals:
+- Fintech: Built API integrations to 100+ banks and 5 payment gateways across Dubai and India, achieving 99.5% transaction success rate on ₹300–400 Crore monthly invoices
+- Procurement Platform: Architected an end-to-end procurement system with Java-based validation, unlocking USD 130 million in working capital
+- Sales Application: Led an ML-powered enrollment system managing ₹350 Crore monthly orders, reducing processing time with automated data mapping and semantic search
+- Catalogue: Engineered a management platform for 1.1 million SKUs with semantic search, improving PDP-to-cart conversion
+- Tally-OMS Integration: Led 100% invoice automation, eliminating manual errors across Dubai and India
+
+Q: What did Ashu do at ElasticRun?
+A: At ElasticRun (a logistics and rural distribution company), Ashu served as Senior Product Manager and Product Manager for nearly 4 years:
+- P&L Ecosystem: Designed a foundational P&L system leading 3 Business Analysts across 20+ warehouses — won the company's "Team of the Year" award
+- Sales Enhancement: Shipped SMART Recommender, SMART Basket, and Medal Framework gamification — grew margin from 4.5% to 7.5% and items per invoice from 7 to 12
+- Reverse Supply Chain: Optimised operations, unlocking ₹40 Crore in working capital
+- Automation: Deployed automated item population in Sales App, achieving 90% manpower reduction
+- Logistics: Achieved ₹2 Crore monthly cost savings through logistics optimisation based on customer research
+
+Q: What is Ashu's total years of experience?
+A: 7+ years in Product Management (2017 to present), with earlier experience in procurement engineering.
+
+---
+
+## SECTION 3: KEY IMPACT NUMBERS
+
+Q: What are Ashu's biggest career achievements by numbers?
+A:
+- ₹400 Crore/month in invoices managed with 99.5% payment success rate (Medikabazaar)
+- USD 130 Million working capital unlocked through procurement automation (Medikabazaar)
+- 20,000+ articles processed per day through NLP pipelines (Zigram/SATOC)
+- 15 Million+ PEP compliance records handled (Zigram)
+- 90% manpower reduction through sales app automation (ElasticRun)
+- ₹40 Crore working capital unlocked through reverse supply chain optimisation (ElasticRun)
+- ₹2 Crore monthly cost savings from logistics optimisation (ElasticRun)
+- Margin growth from 4.5% to 7.5% through gamification and recommendation features (ElasticRun)
+- 1.1 Million SKUs managed in catalogue platform (Medikabazaar)
+- 100+ banks and 5 payment gateways integrated (Medikabazaar)
+
+---
+
+## SECTION 4: TECHNICAL SKILLS & TOOLS
+
+Q: What are Ashu's technical skills?
+A: Ashu's technical skills include:
+- AI/ML: NLP pipelines, Named Entity Recognition, LLM fine-tuning, RAG (Retrieval-Augmented Generation), vector databases, agentic AI, prompt engineering
+- Frameworks: LangChain, LangGraph, LangSmith, Hugging Face AutoTrain, MLX-LM
+- Automation: n8n (workflow automation), GitHub Actions
+- Programming: Python, SQL
+- Apps & Prototyping: Streamlit, Flowise
+- Data: Tableau, Power BI, MS Excel
+- Tools: Jira, Figma, Git/GitHub
+- Protocols: MCP (Model Context Protocol), A2A (Agent-to-Agent), ACP
+- Databases: Vector databases (Pinecone, Qdrant), non-relational databases
+
+Q: Can Ashu code?
+A: Yes. Ashu regularly writes Python, builds Streamlit apps, creates automation workflows in n8n, builds MCP servers, deploys GitHub Actions bots, and experiments with local LLM fine-tuning on his MacBook Pro M4 (24GB unified memory). He has 43+ public GitHub repositories documenting his work.
+
+Q: What is Ashu's GitHub profile?
+A: github.com/ashumishra2104 — 43+ repositories including NLP tools, AI agents, n8n automations, MCP servers, LangChain tutorials, RAG systems, and teaching materials.
+
+---
+
+## SECTION 5: NOTABLE GITHUB PROJECTS
+
+Q: What are Ashu's key GitHub projects?
+A:
+1. LangChain / LangGraph Teaching System — Full curriculum with Colab notebooks, slides, and tutorials for teaching LangChain, LangGraph, and LangSmith to PM students. Repo: Langchain_langraph_langsmith-Theory-Tutorials-
+2. MCP Server Suite (Building_MCP_Server_and_Client) — Hands-on collection of MCP servers built from scratch: expense tracker, calculator, weather, Chrome control, Twitter — integrated with Claude Desktop. Described as "giving Claude real-world superpowers."
+3. AI Blog Writer for Product Managers (AI_ML_Blog_Writer_For_product_managers) — Multi-version agentic blog writing system (V1–V4) showcasing progressive complexity and vibe-coding methodology
+4. n8n Theory and Projects (n8n_theory_and_projects) — Collection of n8n automation workflows including RAG agents, AI bots, and integrations
+5. RAG News Agent (RAG_news_agent) — A retrieval-augmented generation agent for news intelligence
+6. AI Travel Agent on Streamlit (AI_Travel_agent_Streamlit) — A deployed travel itinerary agent
+7. DDA Monitor Bot (dda-monitor-bot) — GitHub Actions bot that scrapes DDA housing listings, summarises with AI, and sends Telegram alerts daily
+8. Sprint Sheet Generator (Sprint_sheet_generator) — Streamlit-based sprint reporting automation for Jira
+9. Generative AI Tools (Generative-AI-) — Audio-visual generative AI tools and experiments
+10. Basics of Machine Learning and Deep Learning — Educational repository for ML/DL fundamentals
+
+Q: What is the MCP project about?
+A: Ashu built multiple MCP (Model Context Protocol) servers from scratch — including an expense tracker, calculator, weather server, Chrome control, and Twitter integration — and integrated them with Claude Desktop. The repository is designed for AI Product Management students and developers who want to give Claude real-world capabilities. It is publicly available at github.com/ashumishra2104/Building_MCP_Server_and_Client
+
+Q: What is the DDA Monitor Bot?
+A: The DDA Monitor Bot (github.com/ashumishra2104/dda-monitor-bot) is a GitHub Actions-powered bot that scrapes the DDA (Delhi Development Authority) housing scheme website daily, summarises the content with AI, and sends the summary to Telegram. It demonstrates CI/CD-driven automation without any server or hosting costs.
+
+---
+
+## SECTION 6: EDUCATION & TEACHING
+
+Q: What is Ashu's educational background?
+A:
+- PGDM in Marketing — IMT Ghaziabad (2020)
+- B.Tech in Mechatronics — UPES Dehradun (2015)
+
+Q: Does Ashu teach?
+A: Yes. Ashu is an active AI Product Management educator. He teaches at:
+- IIT Patna (IITP) — AI PM cohorts covering LangChain, LangGraph, Hugging Face fine-tuning, Agentic AI, MCP servers, UX/UI, and guardrail metrics
+- MASAI School — Instructor, tutorial sessions, and doubt-clearing sessions
+He designs all course materials himself — slides, Colab notebooks, GitHub repos, and student guides — based on real projects he has built.
+
+Q: What topics does Ashu teach?
+A: Ashu teaches: LangChain, LangGraph, LangSmith, Hugging Face fine-tuning, Agentic AI, MCP (Model Context Protocol), A2A and ACP protocols, n8n automation, RAG systems, Flowise, Generative AI for PMs, AI product metrics and guardrails, UX/UI for AI products, and AI PM strategy.
+
+---
+
+## SECTION 7: DOMAIN EXPERTISE
+
+Q: What industries has Ashu worked in?
+A: Ashu has deep experience across: RegTech / AML / Financial Crime Compliance, Fintech / Payments / Banking APIs, HealthTech / B2B Medical Supply Chain, Logistics / Rural Distribution / Supply Chain, eCommerce, and AI/ML products.
+
+Q: What is Ashu's experience with Fintech?
+A: Ashu built payment infrastructure at Medikabazaar integrating 100+ banks and 5 payment gateways across India and Dubai, achieving 99.5% transaction success rate on ₹300–400 Crore monthly invoices. He also built procurement automation that unlocked USD 130 million in working capital.
+
+Q: What is Ashu's experience with AI/ML?
+A: Ashu has hands-on experience building NLP pipelines (processing 20,000+ articles/day), PEP compliance databases (15M+ records), vector search systems, LLM-powered products, RAG systems, and agentic AI workflows. He also fine-tunes models locally using MLX-LM on his MacBook Pro M4.
+
+Q: What is Ashu's experience with Compliance / RegTech?
+A: At Zigram, Ashu built the SATOC content intelligence platform monitoring news across global AML and financial crime domains, a 2,041-keyword FCC framework mapped to FATF guidelines, and a PEP compliance database handling 15M+ records. He has strong familiarity with AML, FATF, FCC, and financial crime compliance requirements.
+
+---
+
+## SECTION 8: PERSONALITY & WORKING STYLE
+
+Q: How does Ashu approach product management?
+A: Ashu is a builder-PM. He believes in learning by building and teaching by example. He writes specs grounded in technical reality, prototypes quickly, and documents everything on GitHub so teams and students can learn from his work. He leads with data, outcome metrics, and user research — not just intuition.
+
+Q: What kind of teams has Ashu led?
+A: Ashu has led cross-functional teams including engineers, business analysts, QA, and finance stakeholders. At ElasticRun, he managed a team of 3 BAs across 20+ warehouses. He is comfortable working with both technical and non-technical stakeholders across India and Dubai.
+
+Q: What is Ashu's superpower as a PM?
+A: His superpower is bridging deep technical depth with clear business outcomes. He can talk to engineers in their language, build prototypes to validate ideas, and then translate all of that into business impact — in numbers that leadership and investors understand.
+
+---
+
+## SECTION 9: AVAILABILITY & ROLE FIT
+
+Q: What roles is Ashu looking for?
+A: Ashu is open to: Senior Product Manager, Technical Product Manager, Head of Product, Principal PM, and AI/ML Product consulting engagements. He is particularly strong in AI-native products, Fintech, RegTech, and B2B platforms.
+
+Q: Is Ashu open to remote or hybrid roles?
+A: Yes, Ashu is open to remote, hybrid, and on-site roles. He has experience working across India and Dubai.
+
+Q: Is Ashu open to relocating?
+A: Ashu is based in Delhi. He is open to discussing relocation for the right opportunity.
+
+Q: How can I schedule a call with Ashu?
+A: You can reach Ashu at ashumishra1@outlook.com or +91 88826 44660. You can also connect on LinkedIn at linkedin.com/in/ashumish
+
+Q: Where can I download Ashu's resume?
+A: You can download Ashu's resume directly from his portfolio website: https://ashumishra2104.github.io/Ashu_Mishra_Resume.pdf
+
+---
+
+## SECTION 10: QUICK REFERENCE CARD
+
+Name: Ashu Mishra
+Title: Senior / Technical Product Manager
+Experience: 7+ years
+Location: Delhi, India
+Current Company: Zigram (AI & RegTech)
+Previous Companies: Medikabazaar, ElasticRun, Eon Electric
+Education: PGDM – IMT Ghaziabad | B.Tech – UPES Dehradun
+Domains: AI/ML, Fintech, RegTech/AML, HealthTech, eCommerce, Logistics
+Tech Stack: Python, SQL, LangChain, LangGraph, n8n, Streamlit, Hugging Face, Vector DBs, MCP
+GitHub: github.com/ashumishra2104 (43+ repos)
+LinkedIn: linkedin.com/in/ashumish
+Email: ashumishra1@outlook.com
+Phone: +91 88826 44660
+Resume: https://ashumishra2104.github.io/Ashu_Mishra_Resume.pdf
+Portfolio: https://ashumishra2104.github.io
+Open to work: Yes — Senior PM, Technical PM, Head of Product, AI Consulting
