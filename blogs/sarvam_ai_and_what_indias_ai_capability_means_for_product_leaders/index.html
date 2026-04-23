@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarvam AI and What India’s AI Capability Means for Product Leaders — Ashu Mishra</title>
+<meta name="description" content="Think of **India’s AI stack** like building a new highway system instead of just importing cars — once the roads, tolls, and traffic rules fit local needs, ever">
+<meta property="og:title" content="Sarvam AI and What India’s AI Capability Means for Product Leaders">
+<meta property="og:description" content="Think of **India’s AI stack** like building a new highway system instead of just importing cars — once the roads, tolls, and traffic rules fit local needs, every business can move faster. Sarvam AI is">
+<meta property="og:type" content="article">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f9f8f5;--surface:#ffffff;--border:#e8e6df;--border2:#d4d1c8;
+  --accent:#1a1a2e;--accent2:#e85d26;--text:#1a1a2e;--muted:#6b6878;
+  --faint:#a8a5b0;--tag-bg:#f0ede6;
+  --font-display:'Fraunces',serif;--font-body:'Plus Jakarta Sans',sans-serif;
+  --font-mono:'JetBrains Mono',monospace;--font-serif:Georgia,serif;
+  --content-width:720px;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:16px;line-height:1.7;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:16px 56px;background:rgba(249,248,245,0.95);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:var(--font-display);font-weight:700;font-size:20px;letter-spacing:-0.5px;color:var(--text);text-decoration:none}
+.nav-logo span{color:var(--accent2)}
+.nav-back{font-family:var(--font-mono);font-size:11px;color:var(--muted);text-decoration:none;letter-spacing:.04em;transition:color .2s}
+.nav-back:hover{color:var(--accent2)}
+.blog-hero{max-width:var(--content-width);margin:0 auto;padding:120px 24px 40px}
+.blog-tag-row{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.blog-tag{font-family:var(--font-mono);font-size:10px;color:var(--muted);background:var(--tag-bg);border:1px solid var(--border);padding:3px 10px;border-radius:20px;letter-spacing:.03em}
+.blog-title{font-family:var(--font-display);font-size:clamp(28px,4vw,46px);font-weight:700;line-height:1.1;letter-spacing:-1.5px;color:var(--text);margin-bottom:20px}
+.blog-meta{font-family:var(--font-mono);font-size:11px;color:var(--faint);margin-bottom:32px;display:flex;align-items:center;gap:12px}
+.blog-meta-dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+.blog-lede{font-size:18px;color:var(--muted);line-height:1.75;font-style:italic;padding-bottom:32px;border-bottom:1px solid var(--border);font-family:var(--font-serif)}
+.blog-body{max-width:var(--content-width);margin:0 auto;padding:40px 24px 96px}
+.blog-h2{font-family:var(--font-display);font-size:clamp(20px,2.5vw,28px);font-weight:700;letter-spacing:-.6px;color:var(--text);margin:48px 0 16px;line-height:1.2}
+.blog-h3{font-family:var(--font-display);font-size:clamp(16px,2vw,20px);font-weight:600;letter-spacing:-.3px;color:var(--text);margin:32px 0 12px}
+.blog-p{font-size:16px;color:#2a2a3e;line-height:1.85;margin-bottom:20px;font-family:var(--font-serif)}
+.blog-p strong{color:var(--text);font-weight:700}
+.blog-p em{font-style:italic}
+.blog-p code{font-family:var(--font-mono);font-size:13px;background:var(--tag-bg);padding:2px 6px;border-radius:3px;color:var(--accent2)}
+.blog-p a{color:var(--accent2);text-decoration:none;border-bottom:1px solid rgba(232,93,38,.3);transition:border-color .2s}
+.blog-p a:hover{border-color:var(--accent2)}
+.blog-ul,.blog-ol{margin:0 0 20px 0;padding-left:24px;font-family:var(--font-serif);font-size:16px;color:#2a2a3e;line-height:1.8}
+.blog-ul li,.blog-ol li{margin-bottom:8px}
+.blog-ul li strong,.blog-ol li strong{color:var(--text);font-weight:700}
+.blog-callout{border-left:3px solid var(--accent2);background:rgba(232,93,38,.04);padding:16px 20px;margin:24px 0;font-family:var(--font-serif);font-size:15px;color:var(--muted);line-height:1.75;border-radius:0}
+.blog-hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+.blog-figure{margin:32px 0;text-align:center}
+.blog-img{max-width:100%;border-radius:8px;border:1px solid var(--border)}
+.blog-figure figcaption{font-family:var(--font-mono);font-size:11px;color:var(--faint);margin-top:10px;letter-spacing:.03em}
+code{font-family:var(--font-mono);font-size:13px;background:var(--tag-bg);padding:2px 6px;border-radius:3px;color:var(--accent2)}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+.blog-footer{border-top:1px solid var(--border);padding:24px 56px;display:flex;justify-content:space-between;align-items:center}
+.blog-footer p{font-family:var(--font-mono);font-size:11px;color:var(--faint)}
+.blog-footer a{color:var(--faint);text-decoration:none;transition:color .2s}
+.blog-footer a:hover{color:var(--accent2)}
+@media(max-width:768px){
+  nav{padding:14px 20px}
+  .blog-hero{padding:100px 20px 32px}
+  .blog-body{padding:32px 20px 64px}
+  .blog-footer{flex-direction:column;gap:8px;text-align:center;padding:20px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="../../" class="nav-logo">AM<span>.</span></a>
+  <a href="../" class="nav-back">← All Blogs</a>
+</nav>
+<div class="blog-hero">
+  <div class="blog-tag-row">
+    <span class="blog-tag">Product Management</span>
+    <span class="blog-tag">AI / ML</span>
+  </div>
+  <h1 class="blog-title">Sarvam AI and What India’s AI Capability Means for Product Leaders</h1>
+  <div class="blog-meta">
+    <span>Ashu Mishra</span>
+    <span class="blog-meta-dot"></span>
+    <span>ashumishra.co.in</span>
+  </div>
+  <p class="blog-lede">Think of <strong>India’s AI stack</strong> like building a new highway system instead of just importing cars — once the roads, tolls, and traffic rules fit local needs, every business can move faster. Sarvam AI is a signal that India is moving from <strong>AI consumption</strong> (using models built elsewhere) to <strong>AI capability-building</strong> (creating models and infrastructure at home) (<a href="https://www.fortuneindia.com/business-news/sarvam-ai-launches-30b-and-105b-models-tailored-for-india-focused-deployment/130517" target="_blank" rel="noopener">Fortune India</a>).</p>
+</div>
+<div class="blog-body">
+<h2 class="blog-h2">Why Sarvam AI matters to PMs right now</h2>
+<p class="blog-p">That matters because <strong>local model capacity</strong> (AI systems built and tuned for India) changes product decisions on language coverage, latency, trust, and dependency risk. If your product serves users in Hindi, Tamil, or mixed-language markets, a locally tuned model can reduce misses in customer support, search, and voice experiences; if you rely on a foreign model vendor, you also inherit pricing and access risk. India’s AI governance guidelines (rules for how AI should be used responsibly) also signal that product teams will need to think more about compliance and accountability, not just feature speed (<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228315" target="_blank" rel="noopener">PIB</a>).</p>
+<blockquote class="blog-callout"><strong>💡 What this means for you as a PM</strong>  </blockquote>
+<blockquote class="blog-callout">If India’s AI stack matures, your product roadmap can become more localized, faster to ship, and less dependent on foreign model access. This affects which markets you prioritize first, how much you invest in multilingual experiences, and whether you build AI features in-house or buy them from vendors. The business trade-off is clear: more local capability can improve conversion and retention, but only if you can prove the model quality and unit economics are good enough.  </blockquote>
+<p class="blog-p">The teams that should care most are <strong>consumer apps, fintech, govtech, customer support, and internal productivity tools</strong>. Those categories feel the pain of language mismatch, response time, trust, and policy constraints first. For product leaders, the core question is now <strong>when local AI capability becomes a competitive advantage</strong> — for example, in India-specific support, payments, or citizen services — versus when it is still just a nice-to-have.</p>
+<h2 class="blog-h2">What Sarvam’s model strategy signals for product decisions</h2>
+<p class="blog-p">Think of picking an AI model like choosing between a <strong>custom delivery fleet and a third-party courier network</strong>: one gives you more control, the other gets you to market faster. Sarvam AI’s reported launch of <strong>30B and 105B models tailored for India-focused deployment</strong> suggests the market is moving beyond “can we use AI?” to “which model gives us the best trade-off for Indian users, languages, and operating costs?” (<a href="https://www.fortuneindia.com/business-news/sarvam-ai-launches-30b-and-105b-models-tailored-for-india-focused-deployment/130517" target="_blank" rel="noopener">Source</a>).</p>
+<p class="blog-p">When a vendor talks about <strong>India-focused deployment</strong> (running the model in a way that fits Indian languages, usage patterns, and infrastructure constraints), the product signal is not just accuracy — it is also <strong>reliability, latency, and cost predictability</strong>. For a product like Swiggy customer support or a fintech onboarding flow, that means your team should care about whether the model can handle vernacular input, stay available at peak traffic, and keep response costs low enough to scale. <strong>This affects your roadmap because</strong> the “best” model is often the one that makes the unit economics work, not the one with the biggest benchmark score.</p>
+<figure class="blog-figure"><img src="images/sarvam_model_tradeoff.png" alt="A split-screen illustration comparing a custom India-tuned AI model and a global general-purpose model for PM decision-making." class="blog-img"><figcaption>A split-screen illustration comparing a custom India-tuned AI model and a global general-purpose model for PM decision-making.</figcaption></figure>
+<p class="blog-p"><em>Model choice is a trade-off between control, speed, cost, and localization.</em></p>
+<blockquote class="blog-callout"><strong>💡 What this means for you as a PM</strong></blockquote>
+<blockquote class="blog-callout">The model choice you make determines whether AI is a scalable product capability or an expensive experiment. If you choose a path that needs heavy compute (expensive processing power) or constant tuning, you may ship slower and burn budget faster than expected. If you choose a smaller or more specialized model, you can often move faster on India-specific features like vernacular support, document processing, or voice, especially when precision matters more than general intelligence.</blockquote>
+<p class="blog-p">The business trade-off is <strong>training from scratch versus adapting an existing model</strong> (building a model from the ground up versus taking a prebuilt one and customizing it). Training from scratch can create stronger control and differentiation, but it usually demands more compute budget (money spent on processing power), more data, and more time before you see value; adapting an existing model typically gets you to market faster, but with less control over behavior and vendor dependence. For PMs, that means the build-vs-buy decision is really a <strong>time-to-market versus moat</strong> decision, with cost sitting in the middle.</p>
+<p class="blog-p">This is where <strong>smaller or purpose-built models</strong> (models designed for a narrower task or region) can outperform frontier models (the largest, most general-purpose models). In India-specific workflows like vernacular support, loan-document extraction, or voice-based assistance, a smaller model can be cheaper to run, easier to govern, and “good enough” in ways that matter to the customer. That matters because India enterprise AI is already moving from pilots to production: EY-CII says <strong>47% of enterprises have multiple AI use cases live in production</strong> (<a href="https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report" target="_blank" rel="noopener">Source</a>), which means the winners will be the teams that optimize for operating reality, not demos.</p>
+<p class="blog-p">Before you commit to a model path, ask vendors and internal AI teams four questions:</p>
+<ul class="blog-ul"><li><strong>Coverage</strong>: Which Indian languages, accents, and document types are actually supported?</li><li><strong>Inference cost</strong> (cost to run the model for each user request): What happens to margin at scale?</li><li><strong>Uptime</strong> (how reliably the service stays available): Can it handle peak demand without degrading customer experience?</li><li><strong>Iteration speed</strong> (how quickly the model can be improved): How fast can the team fix failures, add languages, or update policies?</li></ul>
+<p class="blog-p">India’s AI governance direction also matters here, because product teams will increasingly need to think about <strong>traceability and responsible deployment</strong> (being able to explain and control how AI is used). The India AI Governance Guidelines from PIB reinforce that AI adoption is not just a capability question; it is also a trust and compliance question (<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228315" target="_blank" rel="noopener">Source</a>). <strong>When this goes wrong, you’ll see it as</strong> higher support costs, inconsistent customer experiences, slower launches, and a harder conversation with legal and leadership about risk.</p>
+<h2 class="blog-h2">India’s AI infrastructure is becoming a product enabler</h2>
+<p class="blog-p">Think of AI infrastructure like a city’s road network: <strong>the more lanes, warehouses, and delivery hubs you have, the easier it is to launch and scale a service</strong>. In India, the IndiaAI Mission’s reported scale in GPUs (the specialized chips that power AI), datasets (large collections of information used to train and test models), sectoral models (AI models tuned for specific industries), and application layer support (the tools that help turn AI into user-facing products) changes what product teams can realistically ship.</p>
+<p class="blog-p">For PMs, the biggest shift is <strong>faster experimentation and lower upfront risk</strong>. When compute is less scarce, teams can run more tests, compare approaches, and localize products for Indian languages, commerce, support, and financial services without waiting as long for external capacity. That matters because enterprise AI adoption in India is already moving from pilots to production, with EY-CII reporting that 47% of enterprises have multiple AI use cases live in production (<a href="https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report" target="_blank" rel="noopener">Source</a>).</p>
+<figure class="blog-figure"><img src="images/india_ai_infrastructure_enabler.png" alt="A simple city network metaphor showing AI infrastructure hubs enabling faster product launches across sectors." class="blog-img"><figcaption>A simple city network metaphor showing AI infrastructure hubs enabling faster product launches across sectors.</figcaption></figure>
+<p class="blog-p"><em>AI infrastructure works like roads and hubs that make product launches easier and faster.</em></p>
+<blockquote class="blog-callout"><strong>💡 What this means for you as a PM</strong></blockquote>
+<blockquote class="blog-callout">Better local AI infrastructure can shrink the gap between an idea and a launchable product. This affects your roadmap because you can test more India-specific use cases earlier, especially in regulated categories like finance, health, and public services where domain fit matters. The business trade-off is that access to infrastructure still does not guarantee reliability or compliance, so you should plan for governance checks, phased rollouts, and fallback paths.</blockquote>
+<p class="blog-p"><strong>The business impact is lower execution friction, not instant product readiness.</strong> Public infrastructure can reduce the cost and lead time of sourcing compute externally, which helps startups avoid overcommitting budget before they have a validated use case. For enterprise PMs, it can unlock internal experimentation without waiting on long procurement cycles or overseas capacity constraints.</p>
+<p class="blog-p">But PMs should stay cautious. <strong>Availability is not the same as production-grade reliability</strong>, and access may still come with usage constraints, policy requirements, or governance obligations under India’s AI governance guidelines (<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228315" target="_blank" rel="noopener">Source</a>). This means your team can move faster, but only if your launch plan accounts for compliance, service quality, and the reality that public infrastructure is one input to product success, not the whole answer.</p>
+<h2 class="blog-h2">Business impact: where India-first AI can improve ROI</h2>
+<p class="blog-p">Think of <strong>AI economics like choosing between a toll road and a local street</strong>: the fastest route is not always the cheapest route to repeated business outcomes. In India, that matters because high-volume products like customer support, commerce, education, and financial services often need responses in local languages, at scale, with tight cost control.</p>
+<p class="blog-p"><strong>India-focused models can improve unit economics (the cost of producing one successful customer outcome)</strong> when they reduce inference costs (the cost of running the model), improve automation accuracy (how often the AI gets the job done without human help), and shorten handling time (how long a support or sales interaction takes). Sarvam AI’s India-focused deployments, including models tailored for India-specific use cases, signal that this market is moving beyond generic experimentation toward performance-oriented AI (<a href="https://www.fortuneindia.com/business-news/sarvam-ai-launches-30b-and-105b-models-tailored-for-india-focused-deployment/130517" target="_blank" rel="noopener">Fortune India</a>). Industry signals also show the broader shift: 47% of enterprises in India already have multiple AI use cases live in production, which means the conversation is now about measurable ROI, not just pilots (<a href="https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report" target="_blank" rel="noopener">EY-CII</a>).</p>
+<figure class="blog-figure"><img src="images/india_ai_roi_dashboard.png" alt="A dashboard-style business metric illustration showing improved AI ROI for customer support and commerce use cases." class="blog-img"><figcaption>A dashboard-style business metric illustration showing improved AI ROI for customer support and commerce use cases.</figcaption></figure>
+<p class="blog-p"><em>The right local AI use cases improve cost per outcome, deflection, and conversion.</em></p>
+<blockquote class="blog-callout"><strong>💡 What this means for you as a PM</strong></blockquote>
+<blockquote class="blog-callout">If AI lowers cost per outcome, it stops being a feature and becomes a margin lever. This affects your roadmap because you should prioritize workflows where each successful automation saves real money or creates measurable revenue, not just “nice-to-have” experiences. The business trade-off is usually between faster launch with general-purpose models (broad AI models) and better long-term economics with India-specific capability (models tuned for local languages, behavior, and workloads).</blockquote>
+<p class="blog-p">For example, in <strong>customer support</strong>, a local-language AI assistant can deflect more tickets (resolve them without an agent) and reduce escalation rate (the share of cases sent to humans). In <strong>commerce</strong>, better language understanding can lift conversion in vernacular journeys, especially for first-time internet users. In <strong>education</strong> and <strong>financial services</strong>, the upside is similar: fewer drop-offs, faster task completion, and lower support load.</p>
+<p class="blog-p">The <strong>metrics PMs should track</strong> are straightforward:</p>
+<ul class="blog-ul"><li><strong>Cost per successful task</strong>: what you spend to complete one useful outcome</li><li><strong>Deflection rate</strong>: how many cases AI handles end-to-end</li><li><strong>Time saved</strong>: minutes removed from each interaction</li><li><strong>Escalation rate</strong>: how often AI hands off to a human</li><li><strong>Revenue uplift</strong>: conversion, retention, or average order value gains tied to AI-assisted flows</li></ul>
+<p class="blog-p">When this goes wrong, you’ll see it as <strong>higher costs with no conversion lift</strong>: the model sounds good but doesn’t move business metrics. That’s why the right question is not “Can we add AI?” but <strong>“Which AI choice improves our margin and customer outcomes at the same time?”</strong></p>
+<h2 class="blog-h2">Real-world signals: who is backing Sarvam and what that tells product teams</h2>
+<p class="blog-p">Think of a big funding round like a crowded restaurant suddenly getting a long line outside — <strong>it does not prove the food is great, but it does tell you the market thinks it might be worth waiting for</strong>. Sarvam AI is reportedly raising <strong>$350M at a $1.5B valuation</strong>, which suggests investors believe there is real room for India-specific AI infrastructure and applications, not just imported models with local branding (<a href="https://www.outlookbusiness.com/corporate/sarvam-ai-350m-funding-round-2026-bessemer-nvidia-amazon" target="_blank" rel="noopener">Outlook Business</a>).</p>
+<p class="blog-p">The presence of <strong>strategic backers like Nvidia and Amazon</strong> matters because it signals more than money: it hints at ecosystem maturity, distribution access, and technical credibility. For PMs, that means this is no longer a niche experiment — <strong>the business trade-off is that the bar for product execution rises fast</strong> because partner expectations, customer scrutiny, and competitive pressure all increase when global players are involved (<a href="https://www.outlookbusiness.com/corporate/sarvam-ai-350m-funding-round-2026-bessemer-nvidia-amazon" target="_blank" rel="noopener">Outlook Business</a>).</p>
+<blockquote class="blog-callout"><strong>💡 What this means for you as a PM</strong></blockquote>
+<blockquote class="blog-callout">Capital and strategic backing are signals that India-specific AI is moving from possibility to serious platform competition. This means your team can expect faster hiring, stronger partner networks, and more credible go-to-market conversations with enterprise customers. It also affects your roadmap because funding-backed competitors can iterate faster, so you need a sharper view of which customer problems are worth solving with India-native AI at scale.</blockquote>
+<p class="blog-p">The product question underneath the funding is simple: <strong>which problems are important enough to justify India-native model development?</strong> If a company is building for Indian languages, local workflows, compliance needs, or lower-cost deployment, that can create real advantage in products like customer support, fintech onboarding, or government services. But when this goes wrong, you’ll see it as overinvestment in “national capability” without clear customer pull, which becomes a costly story instead of a defensible product bet (<a href="https://www.fortuneindia.com/business-news/sarvam-ai-launches-30b-and-105b-models-tailored-for-india-focused-deployment/130517" target="_blank" rel="noopener">Fortune India</a>).</p>
+<h2 class="blog-h2">Company examples: where localized AI capability creates visible outcomes</h2>
+<p class="blog-p">Think of <strong>localized AI like a store manager who speaks the customer’s language</strong>—not just literally, but in how they search, ask for help, and complete tasks. In India, that matters because a product that works well in English-heavy, text-first settings can still lose users when customers switch to Hindi, Tamil, Marathi, or voice. <strong>The business upside is not “cool AI,” it is higher completion and lower drop-off</strong> in the moments that drive revenue and service costs.</p>
+<p class="blog-p">For PMs, the clearest wins show up in <strong>multilingual customer support, vernacular search, voice assistants, and document-heavy workflows</strong> like onboarding, claims, KYC, and loan servicing. A support bot that understands mixed-language queries can improve <strong>resolution quality</strong> and reduce handoffs to human agents. A search experience that handles Hindi or regional-language intent can drive <strong>broader market reach</strong> and better discovery, especially for commerce, travel, and consumer fintech. In these cases, the strongest AI is often invisible: it simply helps more users finish the job.</p>
+<blockquote class="blog-callout"><strong>💡 What this means for you as a PM</strong>  </blockquote>
+<blockquote class="blog-callout">The best AI use cases in India are the ones that measurably expand reach or reduce operating friction. That changes your roadmap because you should prioritize workflows with high volume, repeated user pain, and clear metrics like completion rate, abandonment, and cost per resolution. It also changes your rollout strategy: if a model can move from pilot to production faster, it becomes a competitive advantage rather than a science project.  </blockquote>
+<p class="blog-p">That production mindset is already showing up in enterprise buying behavior. An EY-CII report says <strong>47% of enterprises now have multiple AI use cases live in production</strong> and that companies are shifting from pilots to performance, with deployment speed becoming a top criterion (<a href="https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report" target="_blank" rel="noopener">Source</a>). <strong>This means the bar is no longer “can it demo?” but “can it ship, scale, and pay back?”</strong> The best examples are not flashy one-off chatbots; they are repetitive, high-volume workflows where small improvements compound into real ROI.</p>
+<h2 class="blog-h2">What PM leaders should do next</h2>
+<p class="blog-p">Think of this like choosing between a local courier, a global express network, or a mix of both. <strong>The right AI stack should match the job, not the hype</strong>, and that starts with a simple checklist: who the users are, which languages matter, how regulated the workflow is, what latency (response time) is acceptable, how sensitive the data is, and what cost ceiling you can defend.</p>
+<p class="blog-p"><strong>Use Sarvam-like local capability when the product is India-first.</strong> That makes sense when you need strong support for Indian languages, tighter control over data residency (where data is stored and processed), or you operate in sectors with higher governance scrutiny (policy and compliance expectations). India’s AI governance guidelines (official rules and expectations for responsible use) are a reminder that product choices now carry more review risk, not just feature risk. (<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228315" target="_blank" rel="noopener">Source</a>)</p>
+<p class="blog-p"><strong>Stay with global models when speed and broad capability matter more than localization.</strong> If you are launching a generic assistant, a content tool, or an internal productivity feature with low regulatory exposure, global models (large AI systems built for wide use) may get you to market faster with less vendor risk. <strong>Choose a hybrid approach when the workflow is mixed</strong>: for example, a global model for broad reasoning plus a local model for Indian language understanding, sensitive data handling, or fallback coverage.</p>
+<blockquote class="blog-callout"><strong>💡 What this means for you as a PM</strong>  </blockquote>
+<blockquote class="blog-callout">A clear decision framework keeps your team from confusing strategic AI capability with shiny experimentation.  </blockquote>
+<blockquote class="blog-callout">In the next 90 days, pick one workflow, define one business metric such as conversion, resolution rate, or handling time, and compare at least two options against a launch threshold.  </blockquote>
+<blockquote class="blog-callout">This helps you protect budget, avoid overcommitting to a single vendor, and make a stronger case to leadership when the trade-off is between cost, quality, and strategic control.</blockquote>
+<p class="blog-p"><strong>The 90-day test should be practical, not theoretical.</strong> If the workflow is customer-facing, measure business impact directly; if it is internal, measure time saved or error reduction. Set a threshold for launch before you start, then use that threshold to decide whether to adopt, partner, or build more capability in-house.</p>
+<p class="blog-p"><strong>For leadership, the real job is alignment.</strong> This affects your roadmap because AI bets can look transformational long before they prove value, and that can create both underinvestment and overinvestment. Anchor the conversation on user need, unit economics (cost per outcome), and risk, so stakeholders can back a measured bet instead of a vague AI ambition.</p>
+<hr class="blog-hr">
+<h2 class="blog-h2">📚 Further Reading</h2>
+<p class="blog-p">The following sources were retrieved and used during research for this blog. All links are verified — none are invented.</p>
+<ol class="blog-ol"><li><strong><a href="https://www.outlookbusiness.com/corporate/sarvam-ai-350m-funding-round-2026-bessemer-nvidia-amazon" target="_blank" rel="noopener">Sarvam AI Nears Mega Fundraise to Take on Global AI Giants</a></strong> · <em>Outlook Business</em></li></ol>
+<p class="blog-p">> Sarvam AI reportedly nears a $350M raise at a $1.5B valuation, led by Bessemer with Nvidia, Amazon and Prosperity7 participating....</p>
+<ol class="blog-ol"><li><strong><a href="https://www.fortuneindia.com/business-news/sarvam-ai-launches-30b-and-105b-models-tailored-for-india-focused-deployment/130517" target="_blank" rel="noopener">Sarvam AI launches 30B and 105B models tailored for India-focused deployment</a></strong> · <em>Fortune India</em></li></ol>
+<p class="blog-p">> Sarvam launched 30B and 105B models for India-focused deployment, trained from scratch and optimized for efficient inferencing....</p>
+<ol class="blog-ol"><li><strong><a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228315" target="_blank" rel="noopener">India AI Governance Guidelines - PIB</a></strong> · <em>Press Information Bureau</em></li></ol>
+<p class="blog-p">> PIB says IndiaAI Mission has onboarded 38,000+ GPUs, 9,500+ datasets and 273 sectoral models, and supports 30 AI applications....</p>
+<ol class="blog-ol"><li><strong><a href="https://www.ey.com/en_in/newsroom/2025/11/india-s-ai-shift-from-pilots-to-performance-47-percent-of-enterprises-have-multiple-ai-use-cases-live-in-production-ey-cii-report" target="_blank" rel="noopener">India’s AI shift from pilots to performance; 47% of enterprises have multiple AI use cases live in production: EY-CII Report</a></strong> · <em>EY</em></li></ol>
+<p class="blog-p">> EY-CII says 47% of Indian enterprises have multiple GenAI use cases live; 91% cite deployment speed as the top buy-vs-build factor....</p>
+</div>
+<footer class="blog-footer">
+  <p>© 2026 Ashu Mishra · Delhi, India</p>
+  <p><a href="../">← Back to Blogs</a></p>
+</footer>
+</body>
+</html>
